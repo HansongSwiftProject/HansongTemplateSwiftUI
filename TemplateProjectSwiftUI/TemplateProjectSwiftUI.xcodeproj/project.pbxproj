@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		41239F882548050200A0A6A7 /* TemplateProjectSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239F872548050200A0A6A7 /* TemplateProjectSwiftUIApp.swift */; };
-		41239F8A2548050200A0A6A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239F892548050200A0A6A7 /* ContentView.swift */; };
 		41239F8C2548050400A0A6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41239F8B2548050400A0A6A7 /* Assets.xcassets */; };
 		41239F8F2548050400A0A6A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41239F8E2548050400A0A6A7 /* Preview Assets.xcassets */; };
 		41239F9A2548050400A0A6A7 /* TemplateProjectSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239F992548050400A0A6A7 /* TemplateProjectSwiftUITests.swift */; };
 		41239FA52548050400A0A6A7 /* TemplateProjectSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239FA42548050400A0A6A7 /* TemplateProjectSwiftUIUITests.swift */; };
+		4169F0C1254830D100EE2F4B /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0C0254830D100EE2F4B /* TabbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 /* Begin PBXFileReference section */
 		41239F842548050200A0A6A7 /* TemplateProjectSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateProjectSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41239F872548050200A0A6A7 /* TemplateProjectSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateProjectSwiftUIApp.swift; sourceTree = "<group>"; };
-		41239F892548050200A0A6A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41239F8B2548050400A0A6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41239F8E2548050400A0A6A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41239F902548050400A0A6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		41239FA02548050400A0A6A7 /* TemplateProjectSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateProjectSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41239FA42548050400A0A6A7 /* TemplateProjectSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateProjectSwiftUIUITests.swift; sourceTree = "<group>"; };
 		41239FA62548050400A0A6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4169F0C0254830D100EE2F4B /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				41239F872548050200A0A6A7 /* TemplateProjectSwiftUIApp.swift */,
-				41239F892548050200A0A6A7 /* ContentView.swift */,
+				4169F0C0254830D100EE2F4B /* TabbarView.swift */,
 				41239F8B2548050400A0A6A7 /* Assets.xcassets */,
 				41239F902548050400A0A6A7 /* Info.plist */,
 				41239F8D2548050400A0A6A7 /* Preview Content */,
@@ -146,6 +146,8 @@
 			dependencies = (
 			);
 			name = TemplateProjectSwiftUI;
+			packageProductDependencies = (
+			);
 			productName = TemplateProjectSwiftUI;
 			productReference = 41239F842548050200A0A6A7 /* TemplateProjectSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +219,8 @@
 				Base,
 			);
 			mainGroup = 41239F7B2548050200A0A6A7;
+			packageReferences = (
+			);
 			productRefGroup = 41239F852548050200A0A6A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41239F8A2548050200A0A6A7 /* ContentView.swift in Sources */,
 				41239F882548050200A0A6A7 /* TemplateProjectSwiftUIApp.swift in Sources */,
+				4169F0C1254830D100EE2F4B /* TabbarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
