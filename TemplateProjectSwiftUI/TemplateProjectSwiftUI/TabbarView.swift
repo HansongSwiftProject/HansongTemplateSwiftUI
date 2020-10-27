@@ -23,10 +23,24 @@ struct TabbarView: View {
     var body: some View {
         TabView(selection: $selectedTab,
                 content:  {
-                    Text("Tab Content 1").tabItem { Text("Tab Label 1") }.tag(1)
-                    Text("Tab Content 2").tabItem { Text("Tab Label 2") }.tag(2)
-                    Text("Tab Content 3").tabItem { Text("Tab Label 3") }.tag(3)
-                    Text("Tab Content 4").tabItem { Text("Tab Label 4") }.tag(4)
+                    HomeView().tabItem {
+                        Image(systemName: "list.dash")
+                        Text("Home")
+                        
+                    }.tag(1)
+                    CommunityView().tabItem {
+                        Image(systemName: "square.and.pencil")
+                        Text("活动")
+                            .foregroundColor(.orange)
+                            .font(.subheadline)
+                    }.tag(2)
+                    DiscoverView().tabItem {
+                        Image(systemName: "pencil.and.outline")
+                        Text("新人") }.tag(3)
+                    Mine().tabItem {
+                        Image(systemName: "signature")
+                        Text("记录")
+                    }.tag(4)
                 })
     }
 }

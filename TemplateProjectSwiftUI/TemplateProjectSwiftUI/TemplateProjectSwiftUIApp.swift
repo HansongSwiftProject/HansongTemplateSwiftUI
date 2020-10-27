@@ -10,34 +10,11 @@ import SwiftUI
 struct TemplateProjectSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            TabbarView().accentColor(.yellow)
-
+            VStack {
+                TabbarView().accentColor(.yellow)
+            }
+           
         }
-    }
-    init() {
-        setupApperance()
-    }
-    private func setupApperance() {
-        UINavigationBar.appearance().largeTitleTextAttributes = [
-            NSAttributedString.Key.foregroundColor:UIColor.yellow,
-//            NSAttributedString.Key.font: UIFont(name: "FjallaOne-Regular", size: 40)!
-        ]
-        
-        UINavigationBar.appearance().titleTextAttributes = [
-            NSAttributedString.Key.foregroundColor: UIColor.yellow,
-//            NSAttributedString.Key.font: UIFont(name: "FjallaOne-Regular", size: 18)!
-        ]
-        
-        UIBarButtonItem.appearance().setTitleTextAttributes([
-                                                                NSAttributedString.Key.foregroundColor: UIColor.yellow
-//                                                                ,
-//                                                                NSAttributedString.Key.font: UIFont(name: "FjallaOne-Regular", size: 16)!
-        ]
-                                                            ,
-                                                            for: .normal)
-        
-        UIWindow.appearance().tintColor = UIColor.yellow
     }
 }
 

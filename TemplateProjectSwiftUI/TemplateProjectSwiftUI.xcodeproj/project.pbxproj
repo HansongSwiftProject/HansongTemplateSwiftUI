@@ -13,6 +13,10 @@
 		41239F9A2548050400A0A6A7 /* TemplateProjectSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239F992548050400A0A6A7 /* TemplateProjectSwiftUITests.swift */; };
 		41239FA52548050400A0A6A7 /* TemplateProjectSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239FA42548050400A0A6A7 /* TemplateProjectSwiftUIUITests.swift */; };
 		4169F0C1254830D100EE2F4B /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0C0254830D100EE2F4B /* TabbarView.swift */; };
+		4169F0CC2548359900EE2F4B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0CB2548359900EE2F4B /* HomeView.swift */; };
+		4169F0D12548378F00EE2F4B /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0D02548378F00EE2F4B /* CommunityView.swift */; };
+		4169F0D6254837A400EE2F4B /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0D5254837A400EE2F4B /* DiscoverView.swift */; };
+		4169F0DB254837B900EE2F4B /* Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0DA254837B900EE2F4B /* Mine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		41239FA42548050400A0A6A7 /* TemplateProjectSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateProjectSwiftUIUITests.swift; sourceTree = "<group>"; };
 		41239FA62548050400A0A6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4169F0C0254830D100EE2F4B /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		4169F0CB2548359900EE2F4B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4169F0D02548378F00EE2F4B /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		4169F0D5254837A400EE2F4B /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		4169F0DA254837B900EE2F4B /* Mine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				41239F872548050200A0A6A7 /* TemplateProjectSwiftUIApp.swift */,
 				4169F0C0254830D100EE2F4B /* TabbarView.swift */,
+				4169F0CB2548359900EE2F4B /* HomeView.swift */,
+				4169F0D02548378F00EE2F4B /* CommunityView.swift */,
+				4169F0D5254837A400EE2F4B /* DiscoverView.swift */,
+				4169F0DA254837B900EE2F4B /* Mine.swift */,
 				41239F8B2548050400A0A6A7 /* Assets.xcassets */,
 				41239F902548050400A0A6A7 /* Info.plist */,
 				41239F8D2548050400A0A6A7 /* Preview Content */,
@@ -263,7 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4169F0DB254837B900EE2F4B /* Mine.swift in Sources */,
+				4169F0CC2548359900EE2F4B /* HomeView.swift in Sources */,
 				41239F882548050200A0A6A7 /* TemplateProjectSwiftUIApp.swift in Sources */,
+				4169F0D6254837A400EE2F4B /* DiscoverView.swift in Sources */,
+				4169F0D12548378F00EE2F4B /* CommunityView.swift in Sources */,
 				4169F0C1254830D100EE2F4B /* TabbarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,7 +439,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TemplateProjectSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = AGGNX9596Z;
+				DEVELOPMENT_TEAM = 2VXQZZYW38;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TemplateProjectSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -445,7 +461,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TemplateProjectSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = AGGNX9596Z;
+				DEVELOPMENT_TEAM = 2VXQZZYW38;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TemplateProjectSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
