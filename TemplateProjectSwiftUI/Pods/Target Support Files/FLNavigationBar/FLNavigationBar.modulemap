@@ -1,0 +1,6 @@
+framework module FLNavigationBar {
+  umbrella header "FLNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

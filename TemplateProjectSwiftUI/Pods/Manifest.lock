@@ -1,0 +1,16 @@
+PODS:
+  - FLNavigationBar (2.0.1)
+
+DEPENDENCIES:
+  - FLNavigationBar
+
+SPEC REPOS:
+  trunk:
+    - FLNavigationBar
+
+SPEC CHECKSUMS:
+  FLNavigationBar: a1b6ba9c2159e7422947023554832ee3f53dc7ac
+
+PODFILE CHECKSUM: 4e54a95788e8ddf1e98273884ebeabf9b27d9ee2
+
+COCOAPODS: 1.10.0
