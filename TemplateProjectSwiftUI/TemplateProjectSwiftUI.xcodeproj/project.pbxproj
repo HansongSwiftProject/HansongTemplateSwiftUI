@@ -15,6 +15,7 @@
 		41239F9A2548050400A0A6A7 /* TemplateProjectSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239F992548050400A0A6A7 /* TemplateProjectSwiftUITests.swift */; };
 		41239FA52548050400A0A6A7 /* TemplateProjectSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239FA42548050400A0A6A7 /* TemplateProjectSwiftUIUITests.swift */; };
 		412D009D2556B53000ED157E /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412D009C2556B53000ED157E /* ImageData.swift */; };
+		412D00A32556B71C00ED157E /* SwiftUIFlux in Frameworks */ = {isa = PBXBuildFile; productRef = 412D00A22556B71C00ED157E /* SwiftUIFlux */; };
 		4169F0C1254830D100EE2F4B /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0C0254830D100EE2F4B /* TabbarView.swift */; };
 		4169F0CC2548359900EE2F4B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0CB2548359900EE2F4B /* HomeView.swift */; };
 		4169F0D12548378F00EE2F4B /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0D02548378F00EE2F4B /* CommunityView.swift */; };
@@ -78,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F61DA02553F7B10027114C /* Moya in Frameworks */,
+				412D00A32556B71C00ED157E /* SwiftUIFlux in Frameworks */,
 				2523FB3C4630D4AFAF4DA9E9 /* Pods_TemplateProjectSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +106,7 @@
 		41239F7B2548050200A0A6A7 = {
 			isa = PBXGroup;
 			children = (
+				412D00A72556B7CA00ED157E /* Packages */,
 				41239F862548050200A0A6A7 /* TemplateProjectSwiftUI */,
 				41239F982548050400A0A6A7 /* TemplateProjectSwiftUITests */,
 				41239FA32548050400A0A6A7 /* TemplateProjectSwiftUIUITests */,
@@ -167,6 +170,13 @@
 			path = TemplateProjectSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		412D00A72556B7CA00ED157E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
 		4EFB4FB8D140E103E52E9B42 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +220,7 @@
 			name = TemplateProjectSwiftUI;
 			packageProductDependencies = (
 				41F61D9F2553F7B10027114C /* Moya */,
+				412D00A22556B71C00ED157E /* SwiftUIFlux */,
 			);
 			productName = TemplateProjectSwiftUI;
 			productReference = 41239F842548050200A0A6A7 /* TemplateProjectSwiftUI.app */;
@@ -287,6 +298,7 @@
 			mainGroup = 41239F7B2548050200A0A6A7;
 			packageReferences = (
 				41F61D9E2553F7B10027114C /* XCRemoteSwiftPackageReference "Moya" */,
+				412D00A12556B71C00ED157E /* XCRemoteSwiftPackageReference "SwiftUIFlux" */,
 			);
 			productRefGroup = 41239F852548050200A0A6A7 /* Products */;
 			projectDirPath = "";
@@ -768,6 +780,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		412D00A12556B71C00ED157E /* XCRemoteSwiftPackageReference "SwiftUIFlux" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Dimillian/SwiftUIFlux.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
 		41F61D9E2553F7B10027114C /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
@@ -779,6 +799,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		412D00A22556B71C00ED157E /* SwiftUIFlux */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 412D00A12556B71C00ED157E /* XCRemoteSwiftPackageReference "SwiftUIFlux" */;
+			productName = SwiftUIFlux;
+		};
 		41F61D9F2553F7B10027114C /* Moya */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 41F61D9E2553F7B10027114C /* XCRemoteSwiftPackageReference "Moya" */;
